@@ -1,0 +1,23 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+.pytest_cache/
+.coverage
+.env
+.env.*
+!.env.example
+.vercel/
+*.log
+*.tsbuildinfo
+callmissed-source.zip
+
+# Local tooling and agent state
+.codex/
+.claude/
+.agents/
+.aws/
+
+# Internal progress and test notes (keep README.md public)
+PROGRESS.md
+TEST_REPORT.md
