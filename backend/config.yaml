@@ -1,0 +1,17 @@
+# Backend settings only. Keep API keys in environment variables.
+BASE: "https://api.callmissed.com"
+CHAT_MODEL: "sarvam-105b"
+IMAGE_MODEL: "sdxl-lightning"
+CHAT_MAX_TOKENS: 256
+IMAGE_SIZE: "1024x1024"
+MAX_DURATION: 90
+VOICE_MODELS:
+  llm: ["sarvam-105b", "gemma-4-31b"]
+  stt: ["saaras:v3"]
+  tts: ["bulbul:v3"]
+VOICE_NAME: "shubh"
+VOICE_LANGUAGE: "en-IN"
+PROMPT: >-
+  You are CallMissed's friendly demo assistant. Keep replies to one or two short
+  sentences. Help with simple questions. Match the user's English, Hindi, or Hinglish.
+GREETING: "Hi! I'm the CallMissed demo assistant. What would you like to talk about?"
