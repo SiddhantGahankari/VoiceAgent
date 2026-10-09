@@ -118,7 +118,7 @@ input::placeholder, textarea::placeholder { color: #777b68; }
 .feature-empty svg { width: 44px; height: 44px; fill: none; stroke: #8d9d6d; stroke-width: 1.5; }
 .chat-history .transcript-line { max-width: 80%; }
 .chat-history .transcript-line > div { padding: 13px 18px; border-radius: 4px 14px 14px; background: #f4f1e9; min-width: 0; }
-.chat-history .transcript-line.you { margin-left: auto; }
+.chat-history .transcript-line.you { margin-left: auto; justify-content: flex-end; }
 .chat-history .you > div { background: #eaf0d9; border-radius: 14px 4px 14px 14px; }
 .feature-form { display: grid; grid-template-columns: 1fr auto; gap: 12px; }
 .feature-form label { grid-column: 1 / -1; font-size: 13px; font-weight: 700; }
