@@ -1,0 +1,27 @@
+# Local repository, credentials, and tooling
+.git/
+.vercel/
+.agents/
+.aws/
+.codex/
+.claude/
+.env
+.env.*
+skills-lock.json
+
+# Dependencies are installed by Vercel; the frontend is built there
+.venv/
+node_modules/
+dist/
+
+# Caches and local output
+**/__pycache__/
+*.pyc
+.ruff_cache/
+.mypy_cache/
+*.tsbuildinfo
+*.zip
+*.log
+
+# Documentation is kept locally and on GitHub, not uploaded to Vercel
+*.md

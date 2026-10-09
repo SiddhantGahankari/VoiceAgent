@@ -10,6 +10,3 @@ entrypoint = "app:app"
 [tool.vercel.fastapi.static]
 cdn = true
 
-[tool.pytest.ini_options]
-pythonpath = ["."]
-testpaths = ["tests"]
