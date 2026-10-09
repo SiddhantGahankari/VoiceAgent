@@ -6,7 +6,7 @@
     "app.py": {
       "maxDuration": 90,
       "includeFiles": "backend/config.yaml",
-      "excludeFiles": "{node_modules/**,.venv/**,.git/**,.vercel/**,.agents/**,.aws/**,.codex/**,.claude/**,.env,.env.*,__pycache__/**,**/__pycache__/**,*.pyc,**/*.pyc,.ruff_cache/**,.mypy_cache/**,*.tsbuildinfo,**/*.tsbuildinfo,*.zip,**/*.zip,*.log,**/*.log,*.md,**/*.md,skills-lock.json,src/**,index.html,vite.config.ts,tsconfig.json,package.json,package-lock.json}"
+      "excludeFiles": "{node_modules/**,.*,.*/**,src/**,*.md,*.log,*.zip,*.tsbuildinfo,__pycache__/**,**/__pycache__/**,**/*.pyc,skills-lock.json,index.html,vite.config.ts,tsconfig.json,package*.json}"
     }
   },
   "headers": [
